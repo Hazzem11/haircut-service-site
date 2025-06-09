@@ -2,7 +2,7 @@
   "name": "haircut-service-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://hazzemsukar.github.io/haircut-service-site",
+  "homepage": "https://hazzemsukar.github.io/haircut-service-site/",
   "type": "module",
   "scripts": {
     "dev": "vite",
