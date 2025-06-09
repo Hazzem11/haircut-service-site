@@ -1,0 +1,32 @@
+.ai-header {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text);
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem; /* Space below the header */
+}
+
+.ai-header h1 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.ai-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ai-button {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ai-button:hover {
+  background-color: var(--color-primary);
+} 

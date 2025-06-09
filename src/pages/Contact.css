@@ -1,0 +1,42 @@
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.contact-container h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contact-info,
+.contact-form-placeholder {
+  background-color: var(--color-bg);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.contact-form-placeholder {
+  border: 2px dashed var(--color-muted); /* Visual indicator of placeholder */
+  min-height: 200px; /* Placeholder height for the form */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-placeholder h2 {
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+} 

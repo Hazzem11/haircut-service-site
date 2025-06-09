@@ -1,0 +1,103 @@
+.ai-recommendation-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ai-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.upload-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.upload-section h2 {
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.upload-section p {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.upload-button {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recommendation-placeholder {
+  background: var(--color-bg-secondary);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.recommendation-placeholder p {
+  color: var(--color-text-light);
+}
+
+.ai-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
+.next-button {
+  background-color: var(--color-accent);
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.next-button:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .ai-recommendation-container {
+    padding: 1rem;
+  }
+  
+  .ai-title {
+    font-size: 2rem;
+  }
+
+  .upload-section,
+  .recommendation-placeholder {
+    padding: 1.5rem;
+  }
+} 

@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-muted);
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem; /* Add some space above the footer */
+}
+
+.footer .container {
+  /* If you're using a container for layout, add styles here */
+} 
